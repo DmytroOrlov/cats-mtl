@@ -11,8 +11,7 @@ object CompilerOptions {
     "-language:implicitConversions",
     "-unchecked",
     "-Ywarn-numeric-widen",
-    "-Ywarn-value-discard",
-    "-Xfuture"
+    "-Ywarn-value-discard"
   )
 
   val update2_12 = Def.settings(
